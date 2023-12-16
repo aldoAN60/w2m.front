@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import 'primeflex/primeflex.css';
+
+body{
+    /* background-color: #040d19 !important; */
+    font-family: "Segoe UI", helvetica, roboto, Arial, Helvetica, sans-serif !important;
+}
+a{
+    text-decoration: none;
+}

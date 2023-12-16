@@ -1,0 +1,21 @@
+<header class="w2m-title flex justify-content-center align-items-center">
+    <section>
+      <h1 class="text-5xl font-bold uppercase">w2m</h1>
+      <h2 class="text-4xl font-semibold uppercase">frases</h2>
+    </section>
+</header>
+<main class="mt-4">
+  <section>
+    <div class="grid">
+      <div class="col" *ngFor="let integrante of integrantes">
+        <section class="" style="position: relative; display: inline-block;">
+          <img class="border-circle" [src]="integrante.imageUrl" alt="" style="width: 200px; height: 200px; object-fit: cover;">
+          <span style="position: absolute; bottom: 15%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 24px; font-weight: bold;">{{integrante.nombre}}</span>
+        </section>
+      </div>
+    </div>    
+  </section>
+</main>
+<p-button label="Submit"></p-button>
+
+
